@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Symphony</title>
+    <description>Symphony is a flexible and extensible MATLAB-based electrophysiology data acquisition system.</description>
+    <link>http://symphony-das.github.io/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 26 Oct 2015 09:48:44 -0700</pubDate>
+    <lastBuildDate>Mon, 26 Oct 2015 09:48:44 -0700</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+  </channel>
+</rss>
