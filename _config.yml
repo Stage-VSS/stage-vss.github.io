@@ -1,12 +1,12 @@
 # Site settings
-title: Symphony
-subtitle: MATLAB-based electrophysiology data acquisition system
-email: symphony-das@googlegroups.com
-url: http://symphony-das.github.io
-description: "Symphony is a flexible and extensible MATLAB-based electrophysiology data acquisition system."
-download: https://github.com/Symphony-DAS/symphony-matlab2/releases/download/2.0.1.1/Symphony.mlappinstall
+title: Stage
+subtitle: MATLAB-based visual stimulus system
+email: stage-vss@googlegroups.com
+url: http://stage-vss.github.io
+description: "Stage is a flexible and extensible MATLAB-based visual stimulus system."
+download: https://github.com/Stage-VSS/stage2/releases/download/2.0.1.1/Stage.mltbx
 version: Version 2.0.1.1 (2.0-b1)
-github: https://github.com/Symphony-DAS/symphony-matlab2
+github: https://github.com/Stage-VSS/stage2
 
 # Collections
 collections:
@@ -14,21 +14,21 @@ collections:
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 34495E
-  primary-rgb: "52,73,94"
-  secondary: 2C3E50
-  accent: 1ABC9C
+  primary: 9C27B0
+  primary-rgb: "100,73,94"
+  secondary: 7B1FA2
+  accent: CDDC39
 
 # Footer settings
 footer:
-  copyright: Symphony-DAS
+  copyright: Stage-VSS
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: google
-    url: https://groups.google.com/forum/#!forum/symphony-das
+    url: https://groups.google.com/forum/#!forum/stage-vss
   - title: github
-    url: https://github.com/Symphony-DAS/symphony-matlab2
+    url: https://github.com/Stage-VSS/stage2
 
 # Build settings
 markdown: kramdown
