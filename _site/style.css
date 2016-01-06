@@ -29,7 +29,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #CDDC39;
+    color: #9C27B0;
 }
 
 h1,
@@ -173,11 +173,11 @@ header .intro-text .subtitle {
 }
 
 .navbar-default .navbar-nav li a:hover {
-    color: #CDDC39;
+    color: #9C27B0;
 }
 
 .navbar-default .navbar-brand:hover {
-  color: #CDDC39;
+  color: #9C27B0;
 }
 
 .navbar-default,
@@ -333,7 +333,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #CDDC39;
+    color: #9C27B0;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -460,7 +460,7 @@ footer .footer-below {
 }
 
 .navbar-nav>.active>a {
-    background-color: #CDDC39 !important;
+    background-color: #9C27B0 !important;
 }
 
 // Fix modal mouse wheel issues
