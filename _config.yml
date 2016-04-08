@@ -4,8 +4,8 @@ subtitle: MATLAB-based visual stimulus system
 email: stage-vss@googlegroups.com
 url: http://stage-vss.github.io
 description: "Stage is a flexible and extensible MATLAB-based visual stimulus system."
-download: https://github.com/Stage-VSS/stage2/releases/download/2.0.1.3/Stage.mltbx
-version: Version 2.0.1.3 (2.0-b3)
+download: https://github.com/Stage-VSS/stage2/releases/download/2.0.1.4/Stage.mltbx
+version: Version 2.0.1.4 (2.0-b4)
 github: https://github.com/Stage-VSS/stage2
 
 # Collections
