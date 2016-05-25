@@ -1,35 +1,22 @@
-# Site settings
-title: Stage
-subtitle: MATLAB-based visual stimulus system
-email: stage-vss@googlegroups.com
-url: http://stage-vss.github.io
-description: "Stage is a flexible and extensible MATLAB-based visual stimulus system."
-download: https://github.com/Stage-VSS/stage2/releases/download/2.0.1.4/Stage.mltbx
-version: Version 2.0.1.4 (2.0-b4)
-github: https://github.com/Stage-VSS/stage2
+# Permalinks
+#
+permalink:           pretty
 
-# Collections
-collections:
-- features
+# Setup
+title:               Stage
+tagline:             'Visual Stimulus System'
+description:         'Stage is a MATLAB based visual stimulus system for vision research.'
+url:                 http://stage-vss.github.io
+baseurl:             ''
 
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: 9C27B0
-  primary-rgb: "100,73,94"
-  secondary: 7B1FA2
-  accent: 9C27B0
+# About/contact
+author:
+  name:              Stage-VSS
+  url:               http://stage-vss.github.io
+  email:             symphony-das@googlegroups.com
 
-# Footer settings
-footer:
-  copyright: Stage-VSS
+# Custom vars
+version:             2.0.1.4
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: google
-    url: https://groups.google.com/forum/#!forum/stage-vss
-  - title: github
-    url: https://github.com/Stage-VSS/stage2
-
-# Build settings
-markdown: kramdown
-permalink: pretty
+github:
+  repo:              https://github.com/Stage-VSS/stage2
