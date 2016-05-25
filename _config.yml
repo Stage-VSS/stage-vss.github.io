@@ -4,8 +4,8 @@ permalink:           pretty
 
 # Setup
 title:               Stage
-tagline:             'MATLAB-based visual stimulus system'
-description:         'A MATLAB-based visual stimulus system for vision research.'
+tagline:             'Visual Stimulus System'
+description:         'Stage is a MATLAB based visual stimulus system for vision research.'
 url:                 http://stage-vss.github.io
 baseurl:             ''
 

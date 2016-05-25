@@ -3,30 +3,28 @@ layout: default
 title: Home
 ---
 
-# Home
-
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+<img src="public/images/logo@2x.png" width="200" height="200">
+<h1>Simple, Powerful, Flexible<br>
+OpenGL Visual Stimuli in MATLAB&reg;</h1>
+<p>
+  <a href="{{ site.github.repo }}/releases/download/{{ site.version }}/Stage.mltbx" class="btn">Download</a>
+  <a href="{{ site.github.repo }}" class="btn">GitHub</a>
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+<hr>
 
-There are currently two themes built on Poole:
+## What is Stage?
+Stage is a MATLAB based visual stimulus system for vision research. It provides a toolbox for writing visual stimulus routines.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+![hero](public/images/hero.png)
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+<hr>
 
-## Setup
+## Free and Open Source
+Stage is released under the [MIT License](https://opensource.org/licenses/MIT), which is an [open source license](https://opensource.org/docs/osd). You can share and change the source code to your heart's content!
 
-Some fun facts about the setup of this project include:
+<img src="public/images/osi@2x.png" width="200" height="200">
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+<hr>
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+&copy; {{ site.time | date: '%Y' }} Stage-VSS. MATLAB is a registered trademark of The MathWorks, Inc. The OSI logo trademark is the trademark of Open Source Initiative.
