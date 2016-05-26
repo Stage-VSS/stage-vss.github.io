@@ -16,7 +16,51 @@ OpenGL Visual Stimuli in MATLAB&reg;</h1>
 ## What is Stage?
 Stage is a MATLAB based visual stimulus system for vision research. It provides a toolbox for writing visual stimulus routines.
 
-![hero](public/images/hero.png)
+<div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="ImpressionableRespectfulDogwoodtwigborer"></div>
+
+<p>
+  <a href="{{ site.github.repo }}/blob/master/src/main/matlab/%2Bstage/%2Bdemos/checkerboard.m" class="btn">View Code</a>
+</p>
+
+<hr>
+
+## Gratings
+
+<div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="CapitalOffbeatEnglishsetter"></div>
+
+<p>
+  <a href="{{ site.github.repo }}/blob/master/src/main/matlab/%2Bstage/%2Bdemos/gabor.m" class="btn">View Code</a>
+</p>
+
+<hr>
+
+## Images
+
+<div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="DevotedTerribleHen"></div>
+
+<p>
+  <a href="{{ site.github.repo }}/blob/master/src/main/matlab/%2Bstage/%2Bdemos/images.m" class="btn">View Code</a>
+</p>
+
+<hr>
+
+## Masks
+
+<div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="SnivelingLightCanine"></div>
+
+<p>
+  <a href="{{ site.github.repo }}/blob/master/src/main/matlab/%2Bstage/%2Bdemos/aperture.m" class="btn">View Code</a>
+</p>
+
+<hr>
+
+## Filters
+
+<div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="RegularGoldenFrilledlizard"></div>
+
+<p>
+  <a href="{{ site.github.repo }}/blob/master/src/main/matlab/%2Bstage/%2Bdemos/filters.m" class="btn">View Code</a>
+</p>
 
 <hr>
 

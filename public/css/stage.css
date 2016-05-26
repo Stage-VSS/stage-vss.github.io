@@ -33,6 +33,13 @@ li {
   list-style: none;
 }
 
+img {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0;
+}
+
 /* Matlab Blue */
 .theme-matlab-blue .sidebar,
 .theme-matlab-blue .sidebar-toggle:active,
