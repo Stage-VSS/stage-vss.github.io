@@ -36,6 +36,13 @@ hr {
   display: none;
 }
 
+.gfyVid {
+  display: block;
+  max-width: 100%;
+  margin: 0 0 1rem;
+  border-radius: 5px;
+}
+
 /* Matlab Purple */
 .theme-matlab-purple .sidebar,
 .theme-matlab-purple .sidebar-toggle:active,
