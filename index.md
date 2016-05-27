@@ -50,6 +50,30 @@ Stage is a MATLAB based visual stimulus system for vision research. It provides 
 
 <hr>
 
+## Movies
+
+<div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="SilkyCreativeIriomotecat"></div>
+
+<label class="btn collapse-toggle">View Code</label>
+
+<div class="collapse">
+  <script src="https://gist.github.com/cafarm/da11e38358b138c27ce827d147ad9b62.js"></script>
+</div>
+
+<hr>
+
+## Moving Bars
+
+<div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="RemarkableGrippingAfricanfisheagle"></div>
+
+<label class="btn collapse-toggle">View Code</label>
+
+<div class="collapse">
+  <script src="https://gist.github.com/cafarm/2110202e2f8044935c35b68f1a914568.js"></script>
+</div>
+
+<hr>
+
 ## Masks
 
 <div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="SnivelingLightCanine"></div>
