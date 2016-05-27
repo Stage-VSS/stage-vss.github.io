@@ -3,13 +3,13 @@ layout: default
 title: Home
 ---
 
-<img src="public/images/logo@2x.png" width="200" height="200">
+<img src="public/images/logo.png" srcset="public/images/logo.png 1x, public/images/logo@2x.png 2x" alt="Stage Logo">
+
 <h1>Simple, Powerful, Flexible<br>
 OpenGL Visual Stimuli in MATLAB&reg;</h1>
-<p>
-  <a href="{{ site.github.repo }}/releases/download/{{ site.version }}/Stage.mltbx" class="btn">Download</a>
-  <a href="{{ site.github.repo }}" class="btn">GitHub</a>
-</p>
+
+<a href="{{ site.github.repo }}/releases/download/{{ site.version }}/Stage.mltbx" class="btn">Download</a>
+<a href="{{ site.github.repo }}" class="btn">GitHub</a>
 
 <hr>
 
@@ -18,9 +18,11 @@ Stage is a MATLAB based visual stimulus system for vision research. It provides 
 
 <div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="ImpressionableRespectfulDogwoodtwigborer"></div>
 
-<p>
-  <a href="{{ site.github.repo }}/blob/master/src/main/matlab/%2Bstage/%2Bdemos/checkerboard.m" class="btn">View Code</a>
-</p>
+<label class="btn collapse-toggle">View Code</label>
+
+<div class="collapse">
+  <script src="https://gist.github.com/cafarm/f2bc5120ad758bf715a7ba9964b1ed51.js"></script>
+</div>
 
 <hr>
 
@@ -28,9 +30,11 @@ Stage is a MATLAB based visual stimulus system for vision research. It provides 
 
 <div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="CapitalOffbeatEnglishsetter"></div>
 
-<p>
-  <a href="{{ site.github.repo }}/blob/master/src/main/matlab/%2Bstage/%2Bdemos/gabor.m" class="btn">View Code</a>
-</p>
+<label class="btn collapse-toggle">View Code</label>
+
+<div class="collapse">
+  <script src="https://gist.github.com/cafarm/90abfbc344920c7e545213f335e922b1.js"></script>
+</div>
 
 <hr>
 
@@ -38,9 +42,11 @@ Stage is a MATLAB based visual stimulus system for vision research. It provides 
 
 <div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="DevotedTerribleHen"></div>
 
-<p>
-  <a href="{{ site.github.repo }}/blob/master/src/main/matlab/%2Bstage/%2Bdemos/images.m" class="btn">View Code</a>
-</p>
+<label class="btn collapse-toggle">View Code</label>
+
+<div class="collapse">
+  <script src="https://gist.github.com/cafarm/826570f65df958de33e273c1165e8af0.js"></script>
+</div>
 
 <hr>
 
@@ -48,9 +54,11 @@ Stage is a MATLAB based visual stimulus system for vision research. It provides 
 
 <div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="SnivelingLightCanine"></div>
 
-<p>
-  <a href="{{ site.github.repo }}/blob/master/src/main/matlab/%2Bstage/%2Bdemos/aperture.m" class="btn">View Code</a>
-</p>
+<label class="btn collapse-toggle">View Code</label>
+
+<div class="collapse">
+  <script src="https://gist.github.com/cafarm/17b924d2b1eea6a57df945d9dc35def1.js"></script>
+</div>
 
 <hr>
 
@@ -58,16 +66,18 @@ Stage is a MATLAB based visual stimulus system for vision research. It provides 
 
 <div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="RegularGoldenFrilledlizard"></div>
 
-<p>
-  <a href="{{ site.github.repo }}/blob/master/src/main/matlab/%2Bstage/%2Bdemos/filters.m" class="btn">View Code</a>
-</p>
+<label class="btn collapse-toggle">View Code</label>
+
+<div class="collapse">
+  <script src="https://gist.github.com/cafarm/48f3c002c98a51b0f0b2c40903ae015f.js"></script>
+</div>
 
 <hr>
 
 ## Free and Open Source
 Stage is released under the [MIT License](https://opensource.org/licenses/MIT), which is an [open source license](https://opensource.org/docs/osd). You can share and change the source code to your heart's content!
 
-<img src="public/images/osi@2x.png" width="200" height="200">
+<img src="public/images/osi.png" srcset="public/images/osi.png 1x, public/images/osi@2x.png 2x" alt="OSI Logo">
 
 <hr>
 

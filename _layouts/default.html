@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body class="theme-matlab-blue">
+  <body class="theme-matlab-purple">
 
     {% include sidebar.html %}
 
@@ -42,6 +42,17 @@
           checkbox.checked = false;
         }, false);
       })(document);
+    </script>
+
+    <script>
+      $("document").ready(function() {
+        $click = $('.collapse-toggle');
+        $click.click(function() {
+          $(this).toggleClass("active");
+          $collapse = $(this).parent().next();
+          $collapse.slideToggle();
+        });
+      });
     </script>
   </body>
 </html>
