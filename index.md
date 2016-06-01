@@ -16,18 +16,32 @@ OpenGL Visual Stimuli in MATLAB&reg;</h1>
 ## What is Stage?
 Stage is a MATLAB based visual stimulus system for vision research. It provides a toolbox for writing visual stimulus routines.
 
-<div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="ImpressionableRespectfulDogwoodtwigborer"></div>
+![hero](public/images/hero.png)
+
+<hr>
+
+## Built-in Stimuli
+Stage comes with a variety of built-in stimuli including rectangle, ellipse, grating, image, and movie. You can layer these stimuli and animate their attributes (position, size, orientation, color, opacity, etc.) to create complex presentations.
+
+### Rectangle
+<div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="CooperativeWideeyedKingbird"></div>
 
 <label class="btn collapse-toggle">View Code</label>
 
 <div class="collapse">
-  <script src="https://gist.github.com/cafarm/f2bc5120ad758bf715a7ba9964b1ed51.js"></script>
+  <script src="https://gist.github.com/cafarm/2110202e2f8044935c35b68f1a914568.js"></script>
 </div>
 
-<hr>
+### Ellipse
+<div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="PointlessDefinitiveDolphin"></div>
 
-## Gratings
+<label class="btn collapse-toggle">View Code</label>
 
+<div class="collapse">
+  <script src="https://gist.github.com/cafarm/e2a0bde76312d8db939e49885c789974.js"></script>
+</div>
+
+### Grating
 <div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="CapitalOffbeatEnglishsetter"></div>
 
 <label class="btn collapse-toggle">View Code</label>
@@ -36,10 +50,7 @@ Stage is a MATLAB based visual stimulus system for vision research. It provides 
   <script src="https://gist.github.com/cafarm/90abfbc344920c7e545213f335e922b1.js"></script>
 </div>
 
-<hr>
-
-## Images
-
+### Image
 <div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="DevotedTerribleHen"></div>
 
 <label class="btn collapse-toggle">View Code</label>
@@ -48,10 +59,7 @@ Stage is a MATLAB based visual stimulus system for vision research. It provides 
   <script src="https://gist.github.com/cafarm/826570f65df958de33e273c1165e8af0.js"></script>
 </div>
 
-<hr>
-
-## Movies
-
+### Movie
 <div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="SilkyCreativeIriomotecat"></div>
 
 <label class="btn collapse-toggle">View Code</label>
@@ -62,20 +70,10 @@ Stage is a MATLAB based visual stimulus system for vision research. It provides 
 
 <hr>
 
-## Moving Bars
+## Masks and Filters
+Stage supports real-time transparency masks and convolution filters.
 
-<div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="RemarkableGrippingAfricanfisheagle"></div>
-
-<label class="btn collapse-toggle">View Code</label>
-
-<div class="collapse">
-  <script src="https://gist.github.com/cafarm/2110202e2f8044935c35b68f1a914568.js"></script>
-</div>
-
-<hr>
-
-## Masks
-
+### Transparency Mask
 <div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="SnivelingLightCanine"></div>
 
 <label class="btn collapse-toggle">View Code</label>
@@ -84,10 +82,7 @@ Stage is a MATLAB based visual stimulus system for vision research. It provides 
   <script src="https://gist.github.com/cafarm/17b924d2b1eea6a57df945d9dc35def1.js"></script>
 </div>
 
-<hr>
-
-## Filters
-
+### Convolution Filter
 <div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="RegularGoldenFrilledlizard"></div>
 
 <label class="btn collapse-toggle">View Code</label>
@@ -98,6 +93,33 @@ Stage is a MATLAB based visual stimulus system for vision research. It provides 
 
 <hr>
 
+## Stage Server
+Stage includes a Stage Server app for remote stimulus presentation.
+
+![server](public/images/server.png)
+
+<hr>
+
+## Symphony Integration
+Stage was built alongside and integrates seamlessly with [Symphony](http://symphony-das.github.io).
+
+![symphony](public/images/symphony.png)
+
+<label class="btn collapse-toggle">View an Example Protocol</label>
+
+<div class="collapse">
+  <script src="https://gist.github.com/cafarm/4ede658fd504a979b511f62092614441.js"></script>
+</div>
+
+<hr>
+
+## Built for Modern OpenGL
+Stage was built for core OpenGL 3.2+ which enables it to be more efficient, flexible, and future-proof. The toolbox makes extensive use of vertex buffer and array objects as well as shaders.
+
+<img src="public/images/opengl.png" srcset="public/images/opengl.png 1x, public/images/opengl@2x.png 2x" alt="OpenGL Logo">
+
+<hr>
+
 ## Free and Open Source
 Stage is released under the [MIT License](https://opensource.org/licenses/MIT), which is an [open source license](https://opensource.org/docs/osd). You can share and change the source code to your heart's content!
 
@@ -105,4 +127,4 @@ Stage is released under the [MIT License](https://opensource.org/licenses/MIT), 
 
 <hr>
 
-&copy; {{ site.time | date: '%Y' }} Stage-VSS. MATLAB is a registered trademark of The MathWorks, Inc. The OSI logo trademark is the trademark of Open Source Initiative.
+&copy; {{ site.time | date: '%Y' }} Stage-VSS. MATLAB is a registered trademark of The MathWorks, Inc. OpenGL and the oval logo are trademarks or registered trademarks of Silicon Graphics, Inc. in the United States and/or other countries worldwide. The OSI logo trademark is the trademark of Open Source Initiative.
