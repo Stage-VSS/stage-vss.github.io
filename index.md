@@ -21,7 +21,7 @@ Stage is a MATLAB based visual stimulus system for vision research. It provides 
 <hr>
 
 ## Built-in Stimuli
-Stage comes with a variety of built-in stimuli including rectangle, ellipse, grating, image, and movie. You can layer these stimuli and animate their attributes (position, size, orientation, color, opacity, etc.) to create complex presentations.
+Stage comes with a wide variety of built-in stimuli. You can layer stimuli and animate their attributes (position, size, orientation, color, opacity, etc.) to create complex presentations.
 
 ### Rectangle
 <div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="CooperativeWideeyedKingbird"></div>
@@ -71,7 +71,7 @@ Stage comes with a variety of built-in stimuli including rectangle, ellipse, gra
 <hr>
 
 ## Masks and Filters
-Stage supports real-time transparency masks and convolution filters.
+Stage supports real-time transparency masks and convolution filters. The use of shaders enable all effects processing to occur on the GPU.
 
 ### Transparency Mask
 <div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="SnivelingLightCanine"></div>
@@ -94,14 +94,14 @@ Stage supports real-time transparency masks and convolution filters.
 <hr>
 
 ## Stage Server
-Stage includes a Stage Server app for remote stimulus presentation.
+Stage includes a Stage Server app to enable remote stimulus presentation across MATLAB sessions. The sessions may be running on the same machine or on separate machines across a network.
 
 ![server](public/images/server.png)
 
 <hr>
 
 ## Symphony Integration
-Stage was built alongside and integrates seamlessly with [Symphony](http://symphony-das.github.io).
+Stage integrates seamlessly with [Symphony](http://symphony-das.github.io). You can create and display Stage presentations directly in your Symphony protocols.
 
 ![symphony](public/images/symphony.png)
 
