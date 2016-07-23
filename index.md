@@ -23,49 +23,19 @@ Stage is a MATLAB based visual stimulus system for vision research. It provides 
 ## Built-in Stimuli
 Stage comes with a wide variety of built-in stimuli. You can layer stimuli and animate their attributes (position, size, orientation, color, opacity, etc.) to create complex presentations.
 
-### Rectangle
-<div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="CooperativeWideeyedKingbird"></div>
+<div class="features">
+  {% for stimulus in site.stimuli %}
+  <div class="feature">
+    <h3>{{ stimulus.title }}</h3>
 
-<label class="btn collapse-toggle">View Code</label>
+    <div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="{{ stimulus.gfyitem }}"></div>
 
-<div class="collapse">
-  <script src="https://gist.github.com/cafarm/2110202e2f8044935c35b68f1a914568.js"></script>
-</div>
-
-### Ellipse
-<div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="PointlessDefinitiveDolphin"></div>
-
-<label class="btn collapse-toggle">View Code</label>
-
-<div class="collapse">
-  <script src="https://gist.github.com/cafarm/e2a0bde76312d8db939e49885c789974.js"></script>
-</div>
-
-### Grating
-<div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="CapitalOffbeatEnglishsetter"></div>
-
-<label class="btn collapse-toggle">View Code</label>
-
-<div class="collapse">
-  <script src="https://gist.github.com/cafarm/90abfbc344920c7e545213f335e922b1.js"></script>
-</div>
-
-### Image
-<div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="DevotedTerribleHen"></div>
-
-<label class="btn collapse-toggle">View Code</label>
-
-<div class="collapse">
-  <script src="https://gist.github.com/cafarm/826570f65df958de33e273c1165e8af0.js"></script>
-</div>
-
-### Movie
-<div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="SilkyCreativeIriomotecat"></div>
-
-<label class="btn collapse-toggle">View Code</label>
-
-<div class="collapse">
-  <script src="https://gist.github.com/cafarm/da11e38358b138c27ce827d147ad9b62.js"></script>
+    <p><label class="btn collapse-toggle">View Code</label></p>
+    <div class="collapse">
+      <script src="https://gist.github.com/{{ stimulus.gist }}.js"></script>
+    </div>
+  </div>
+  {% endfor %}
 </div>
 
 <hr>
@@ -73,22 +43,19 @@ Stage comes with a wide variety of built-in stimuli. You can layer stimuli and a
 ## Masks and Filters
 Stage supports real-time transparency masks and convolution filters. The use of shaders enable all effects processing to occur on the GPU.
 
-### Transparency Mask
-<div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="SnivelingLightCanine"></div>
+<div class="features">
+  {% for effect in site.effects %}
+  <div class="feature">
+    <h3>{{ effect.title }}</h3>
 
-<label class="btn collapse-toggle">View Code</label>
+    <div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="{{ effect.gfyitem }}"></div>
 
-<div class="collapse">
-  <script src="https://gist.github.com/cafarm/17b924d2b1eea6a57df945d9dc35def1.js"></script>
-</div>
-
-### Convolution Filter
-<div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="RegularGoldenFrilledlizard"></div>
-
-<label class="btn collapse-toggle">View Code</label>
-
-<div class="collapse">
-  <script src="https://gist.github.com/cafarm/48f3c002c98a51b0f0b2c40903ae015f.js"></script>
+    <p><label class="btn collapse-toggle">View Code</label></p>
+    <div class="collapse">
+      <script src="https://gist.github.com/{{ effect.gist }}.js"></script>
+    </div>
+  </div>
+  {% endfor %}
 </div>
 
 <hr>
@@ -105,8 +72,7 @@ Stage integrates seamlessly with [Symphony](http://symphony-das.github.io). You 
 
 ![symphony](public/images/symphony.png)
 
-<label class="btn collapse-toggle">View an Example Protocol</label>
-
+<p><label class="btn collapse-toggle">View an Example Protocol</label></p>
 <div class="collapse">
   <script src="https://gist.github.com/cafarm/4ede658fd504a979b511f62092614441.js"></script>
 </div>

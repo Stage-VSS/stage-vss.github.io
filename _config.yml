@@ -1,5 +1,4 @@
 # Permalinks
-#
 permalink:           pretty
 
 # Setup
@@ -14,6 +13,11 @@ author:
   name:              Stage-VSS
   url:               http://stage-vss.github.io
   email:             symphony-das@googlegroups.com
+
+# Collections
+collections:
+- stimuli
+- effects
 
 # Custom vars
 version:             2.0.3.3
