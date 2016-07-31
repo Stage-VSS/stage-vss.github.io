@@ -23,7 +23,7 @@ collections:
 version:             2.0.3.3
 
 github:
-  repo:              https://github.com/Stage-VSS/stage2
+  repo:              https://github.com/Stage-VSS/stage
 
 gitbook:
   book:              https://cafarm.gitbooks.io/stage
