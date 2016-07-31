@@ -18,6 +18,8 @@ Stage is a MATLAB based visual stimulus system for vision research. It provides 
 
 ![hero](public/images/hero.png)
 
+<a href="{{ site.gitbook.book }}" class="btn">Documentation</a>
+
 <hr>
 
 ## Built-in Stimuli
