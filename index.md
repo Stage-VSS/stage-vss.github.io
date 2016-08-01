@@ -28,14 +28,7 @@ Stage comes with a wide variety of built-in stimuli. You can layer stimuli and a
 <div class="features">
   {% for stimulus in site.stimuli %}
   <div class="feature">
-    <h3>{{ stimulus.title }}</h3>
-
     <div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="{{ stimulus.gfyitem }}"></div>
-
-    <p><label class="btn collapse-toggle">View Code</label></p>
-    <div class="collapse">
-      <script src="https://gist.github.com/{{ stimulus.gist }}.js"></script>
-    </div>
   </div>
   {% endfor %}
 </div>
@@ -48,14 +41,7 @@ Stage supports real-time transparency masks and convolution filters. The use of 
 <div class="features">
   {% for effect in site.effects %}
   <div class="feature">
-    <h3>{{ effect.title }}</h3>
-
     <div class="gfyitem" data-title="false" data-autoplay="false" data-controls="false" data-expand="false" data-id="{{ effect.gfyitem }}"></div>
-
-    <p><label class="btn collapse-toggle">View Code</label></p>
-    <div class="collapse">
-      <script src="https://gist.github.com/{{ effect.gist }}.js"></script>
-    </div>
   </div>
   {% endfor %}
 </div>
