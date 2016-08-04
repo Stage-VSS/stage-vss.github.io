@@ -81,4 +81,4 @@ Stage is released under the [MIT License](https://opensource.org/licenses/MIT), 
 
 <hr>
 
-&copy; {{ site.time | date: '%Y' }} Stage-VSS. MATLAB is a registered trademark of The MathWorks, Inc. OpenGL and the oval logo are trademarks or registered trademarks of Silicon Graphics, Inc. in the United States and/or other countries worldwide. The OSI logo trademark is the trademark of Open Source Initiative.
+<small>&copy; {{ site.time | date: '%Y' }} Stage-VSS. MATLAB is a registered trademark of The MathWorks, Inc. OpenGL and the oval logo are trademarks or registered trademarks of Silicon Graphics, Inc. in the United States and/or other countries worldwide. The OSI logo trademark is the trademark of Open Source Initiative.</small>
