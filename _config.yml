@@ -7,6 +7,7 @@ tagline:             'Visual Stimulus System'
 description:         'Stage is a MATLAB based visual stimulus system for vision research.'
 url:                 http://stage-vss.github.io
 baseurl:             ''
+usergroup:           https://groups.google.com/forum/#!forum/symphony-das
 
 # About/contact
 author:
