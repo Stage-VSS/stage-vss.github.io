@@ -23,7 +23,7 @@ Stage is a MATLAB based visual stimulus system for vision research. It provides 
 <hr>
 
 ## Built-in Stimuli
-Stage comes with a wide variety of built-in stimuli. You can layer stimuli and animate their attributes (position, size, orientation, color, opacity, etc.) to create complex presentations.
+Stage comes with a wide variety of built-in stimuli like rectangle, ellipse, grating, image, and movie. You can layer stimuli and animate their attributes (position, size, orientation, color, opacity, etc.) to create complex presentations.
 
 <div class="features">
   {% for stimulus in site.stimuli %}
