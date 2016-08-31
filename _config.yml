@@ -17,8 +17,10 @@ author:
 
 # Collections
 collections:
-- stimuli
-- effects
+  stimuli:
+    output: true
+  effects:
+    output: true
 
 # Custom vars
 version:             2.1.3.0
