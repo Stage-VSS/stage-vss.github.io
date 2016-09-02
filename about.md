@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-Stage is developed and maintained by the Stage-VSS GitHub organization. It is based on concepts and ideas developed by Andrew Straw in [Vision Egg](http://visionegg.org). Primary contributors have included the Rieke Lab at University of Washington.
+Stage is developed and maintained by the Stage-VSS GitHub organization. It builds on ideas developed by Andrew Straw in [Vision Egg](http://visionegg.org). Primary contributors have included the Rieke Lab at University of Washington.
 
 ## System Requirements
 MATLAB R2016a+ (x64)  

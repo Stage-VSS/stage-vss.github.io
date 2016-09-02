@@ -23,7 +23,7 @@ Stage is a MATLAB based visual stimulus system for vision research. It provides 
 <hr>
 
 ## Built-in Stimuli
-Stage comes with a wide variety of built-in stimuli like rectangle, ellipse, grating, image, and movie. You can layer stimuli and animate their attributes (position, size, orientation, color, opacity, etc.) to create complex presentations.
+Stage comes with a wide variety of built-in stimuli like rectangle, ellipse, grating, image, and movie. Stimuli may be layered and their attributes (position, size, orientation, color, opacity, etc.) animated to create complex presentations. View some example presentations below.
 
 <div class="features">
   {% for stimulus in site.stimuli %}
@@ -36,7 +36,7 @@ Stage comes with a wide variety of built-in stimuli like rectangle, ellipse, gra
 <hr>
 
 ## Masks and Filters
-Stage supports real-time transparency masks and convolution filters. The use of shaders enable all effects processing to occur on the GPU.
+Stage supports real-time transparency masks and convolution filters. The use of shaders enable all effects processing to occur on the GPU. View some example presentations with masks and filters below.
 
 <div class="features">
   {% for effect in site.effects %}
@@ -56,7 +56,7 @@ Stage includes a Stage Server app to enable remote stimulus presentation across 
 <hr>
 
 ## Symphony Integration
-Stage integrates seamlessly with [Symphony](http://symphony-das.github.io). You can create and display Stage presentations directly in your Symphony protocols.
+Stage integrates seamlessly with [Symphony](http://symphony-das.github.io). Stage presentations may be created and displayed directly in Symphony protocols.
 
 ![symphony](public/images/symphony.png)
 
@@ -75,7 +75,7 @@ Stage was built for core OpenGL 3.2+ which enables it to be more efficient, flex
 <hr>
 
 ## Free and Open Source
-Stage is released under the [MIT License](https://opensource.org/licenses/MIT), which is an [open source license](https://opensource.org/docs/osd). You can share and change the source code to your heart's content!
+Stage is released under the [MIT License](https://opensource.org/licenses/MIT), which is an [open source license](https://opensource.org/docs/osd). Pull requests to the Stage-VSS GitHub organization are welcomed and encouraged.
 
 <img src="public/images/osi.png" srcset="public/images/osi.png 1x, public/images/osi@2x.png 2x" alt="OSI Logo">
 
