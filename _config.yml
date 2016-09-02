@@ -27,6 +27,7 @@ version:             2.1.3.0
 
 github:
   repo:              https://github.com/Stage-VSS/stage
+  org:               https://github.com/Stage-VSS
 
 gitbook:
   book:              https://cafarm.gitbooks.io/stage

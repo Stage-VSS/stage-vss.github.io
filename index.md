@@ -9,7 +9,7 @@ title: Home
 OpenGL Visual Stimuli in MATLAB&reg;</h1>
 
 <a href="{{ site.github.repo }}/releases/download/{{ site.version }}/Stage.mltbx" class="btn">Download</a>
-<a href="{{ site.github.repo }}" class="btn">GitHub</a>
+<a href="{{ site.github.org }}" class="btn">GitHub</a>
 
 <hr>
 
