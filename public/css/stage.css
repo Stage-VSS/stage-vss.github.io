@@ -47,6 +47,7 @@ hr {
   display: none;
 }
 
+.gfyVid,
 .gfy-video {
   display: block;
   max-width: 100%;
